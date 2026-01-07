@@ -1789,9 +1789,9 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.defi-oracle.io", "wss://wss.defi-oracle.io"],
+  "rpc": ["https://rpc-http-pub.d-bis.org", "https://rpc-http-prv.d-bis.org"],
   "faucets": [],
-  "infoURL": "https://info.defi-oracle.io/"
+  "infoURL": "https://d-bis.org"
 }, {
   "name": "WoopChain Mainnet",
   "chainId": 139,
@@ -5069,7 +5069,7 @@
   "faucets": [],
   "infoURL": "https://janction.io"
 }, {
-  "name": "Jasmy Chain",
+  "name": "JasmyChain",
   "chainId": 680,
   "shortName": "jasmychain",
   "networkId": 680,
@@ -5078,22 +5078,22 @@
     "symbol": "JASMY",
     "decimals": 18
   },
-  "rpc": ["https://rpc.jasmychain.io", "wss://rpc.jasmychain.io"],
+  "rpc": ["https://rpc.jasmyscan.net", "wss://rpc.jasmyscan.net/ws"],
   "faucets": [],
-  "infoURL": "https://jasmychain.io"
+  "infoURL": "https://jasmy.global"
 }, {
-  "name": "Jasmy Chain Testnet",
+  "name": "JasmyChain Testnet",
   "chainId": 681,
-  "shortName": "jasmychain_testnet",
+  "shortName": "jasmychain-test",
   "networkId": 681,
   "nativeCurrency": {
     "name": "JasmyCoin",
     "symbol": "JASMY",
     "decimals": 18
   },
-  "rpc": ["https://rpc_testnet.jasmychain.io", "wss://rpc_testnet.jasmychain.io"],
-  "faucets": [],
-  "infoURL": "https://jasmychain.io"
+  "rpc": ["https://jasmy-chain-testnet.alt.technology", "wss://jasmy-chain-testnet.alt.technology/ws"],
+  "faucets": ["https://faucet.janction.ai"],
+  "infoURL": "https://jasmy.global"
 }, {
   "name": "Karura Network",
   "chainId": 686,
@@ -10516,9 +10516,22 @@
   "faucets": [],
   "infoURL": "https://kroma.network"
 }, {
+  "name": "KiteAI",
+  "chainId": 2366,
+  "shortName": "KiteAI",
+  "networkId": 2366,
+  "nativeCurrency": {
+    "name": "Kite",
+    "symbol": "KITE",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.gokite.ai"],
+  "faucets": [],
+  "infoURL": "https://gokite.ai/"
+}, {
   "name": "KiteAI Testnet",
   "chainId": 2368,
-  "shortName": "KiteAI",
+  "shortName": "KiteAITestnet",
   "networkId": 1,
   "nativeCurrency": {
     "name": "Kite",
@@ -20513,6 +20526,19 @@
   "faucets": [],
   "infoURL": "https://ab.org"
 }, {
+  "name": "ADI Chain",
+  "chainId": 36900,
+  "shortName": "adi",
+  "networkId": 36900,
+  "nativeCurrency": {
+    "name": "ADI",
+    "symbol": "ADI",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.adifoundation.ai"],
+  "faucets": [],
+  "infoURL": "https://adifoundation.ai"
+}, {
   "name": "Lens Testnet",
   "chainId": 37111,
   "shortName": "lens-sepolia",
@@ -21214,6 +21240,19 @@
   "rpc": ["https://rpc.juneo-mainnet.network/ext/bc/LINK1/rpc"],
   "faucets": [],
   "infoURL": "https://juneo.com/"
+}, {
+  "name": "Billions",
+  "chainId": 45056,
+  "shortName": "Billions",
+  "networkId": 45056,
+  "nativeCurrency": {
+    "name": "ETHER",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": ["https://billions-rpc.eu-north-2.gateway.fm"],
+  "faucets": [],
+  "infoURL": "https://billions.network"
 }, {
   "name": "Swamps L2",
   "chainId": 45454,
@@ -23560,7 +23599,7 @@
   "shortName": "cpchain-testnet",
   "networkId": 86606,
   "nativeCurrency": {
-    "name": "Testnet CpChain",
+    "name": "CP",
     "symbol": "CP",
     "decimals": 18
   },
@@ -23568,12 +23607,12 @@
   "faucets": ["https://cpchain-test.pages.dev/faucet"],
   "infoURL": "https://cpchain.com"
 }, {
-  "name": "CpChain",
+  "name": "CpChain Mainnet",
   "chainId": 86608,
   "shortName": "cpchain",
   "networkId": 86608,
   "nativeCurrency": {
-    "name": "CpChain",
+    "name": "CP",
     "symbol": "CP",
     "decimals": 18
   },
